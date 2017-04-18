@@ -10,19 +10,8 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.11'
-}
-group 'Lithuania'
-version '1.0-SNAPSHOT'
-
-apply plugin: 'java'
-
-sourceCompatibility = 1.5
-
-repositories {
-    mavenCentral()
+    compile 'org.testng:testng:6.11'
 }
 
-dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.11'
-}
+
+
